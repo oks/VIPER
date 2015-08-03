@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  ANTableControllerExample
+
+  Created by Oksana Kovalchuk on 7/29/15.
+  Copyright (c) 2015 ANODA. All rights reserved.
+*/
+
+
+/**
+ *  Debug
+ */
+
+"debug.screen.title" = "Debug Controller";
+
+
+/**
+ *  Common
+ */
+
+"common.error" = "Error";
+"common.ok" = "OK";
+
+
+/**
+ *  Loading View Controller
+ */
+
+"loading-view.empty.label" = "No content";
+"loading-view.loading.label" = "Loading...";
+"loading-view.retry.label" = "Retry!";
+
+
+
+/**
+ *  Categories List
+ */
+
+"categories-list.screen.title" = "All Categories";
+
+
+/**
+ *  Add Category
+ */
+
+"add-category.screen.title" = "Add Category";
+"add-category.textfield.placeholder" = "Category Name";
+"add-category.add-photo.placeholder" = "Add Photo";
+
+
+/**
+ *  Item Detail
+ */
+
+
+
+/**
+ *  Add Item
+ */
+
+
+/**
+ *  Email Wireframe
+ */
+
+"error.mail.no-avariable-email-client" = "Sorry, your device can't send emails.";
+

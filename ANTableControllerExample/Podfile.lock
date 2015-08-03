@@ -1,0 +1,111 @@
+PODS:
+  - ANBaseDomainModel (1.0):
+    - ReactiveCocoa (~> 2.4.2)
+  - ANCategories (1.0.6):
+    - ANHelperFunctions (~> 1.0)
+    - ReactiveCocoa (~> 2.4.2)
+  - ANColorTheme (1.0.4):
+    - ANCategories (~> 1.0)
+    - ANHelperFunctions (~> 1.0)
+  - ANHelperFunctions (1.0.3)
+  - ANKeyboardHandler (1.0.2):
+    - ANHelperFunctions (~> 1.0)
+  - ANLogger (1.0.2):
+    - ANCategories (~> 1.0.6)
+    - CocoaLumberjack (~> 2.0.0)
+  - ANProgressButton (1.0.2):
+    - ANCategories (~> 1.0)
+    - ANColorTheme (~> 1.0)
+    - MSSPopMasonry
+    - ReactiveCocoa (~> 2.4.2)
+  - ANStorage (1.1.2):
+    - ANHelperFunctions (~> 1.0)
+    - ANLogger (~> 1.0)
+  - ANTableController (1.1):
+    - ANHelperFunctions (~> 1.0)
+    - ANKeyboardHandler (~> 1.0)
+    - ANStorage (~> 1.0)
+  - ANTableViews (1.0.10):
+    - ANCategories (~> 1.0)
+    - ANHelperFunctions (~> 1.0)
+    - ANStorage (~> 1.0)
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - Crashlytics (3.1.0)
+  - DBCamera (2.3.16):
+    - GPUImage (~> 0.1)
+  - Fabric (1.2.8):
+    - Fabric/Base (= 1.2.8)
+  - Fabric/Base (1.2.8)
+  - FrameAccessor (2.0)
+  - GPUImage (0.1.7)
+  - KVOController (1.0.3)
+  - Masonry (0.6.2)
+  - MSSPopMasonry (0.0.1):
+    - Masonry
+    - pop
+  - pop (1.0.7)
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - Reveal-iOS-SDK (1.5.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+
+DEPENDENCIES:
+  - ANBaseDomainModel
+  - ANCategories
+  - ANColorTheme
+  - ANHelperFunctions
+  - ANKeyboardHandler
+  - ANLogger
+  - ANProgressButton
+  - ANStorage
+  - ANTableController
+  - ANTableViews
+  - Crashlytics
+  - DBCamera
+  - Fabric
+  - FrameAccessor
+  - KVOController
+  - Masonry
+  - Reveal-iOS-SDK
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  ANBaseDomainModel: ed24258ecfad8c4829e13c032c07caee7baaf575
+  ANCategories: e27e6963e30875ff0e46352179b06aecaefe4037
+  ANColorTheme: 5fcbfba22ba047c68a9f4b92c5012fc9d02c1dc8
+  ANHelperFunctions: 39cbb913f8af9b52fc8921ba4051583a7bfc13ab
+  ANKeyboardHandler: 800b1f318d59cd7746be449286ebbd78ee81465a
+  ANLogger: 5ed038a64e650b0576f13d6816fa4b53367553e2
+  ANProgressButton: a4e7c57c47b9d5dc38a3e56529efae09a6bc185c
+  ANStorage: 38217e8177b94d665b3bcc0fbd262e043beeb609
+  ANTableController: 2b7b533abb48eea47adf739a5b3627ea9a049efe
+  ANTableViews: dbfd364d5f541c71be904a9096cb893cecb4662e
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  Crashlytics: ef9a58a4e806b316a1748c06432f6f847ba09ac6
+  DBCamera: c88a0deea468d153f54196e56a423301c7092737
+  Fabric: a9eabe53915e9f1db55a84dd2838737928675878
+  FrameAccessor: 443a13e58e23a10ff22180da0897b28c3f6abf66
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MSSPopMasonry: 6700cb03db3f2e7c16ecc96f53c0bd1a2a73fc4f
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
+  Reveal-iOS-SDK: c9c55cad2729c85f6ced415f1b21857c9a2d8ef9
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+
+COCOAPODS: 0.37.2

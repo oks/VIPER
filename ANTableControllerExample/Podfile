@@ -1,0 +1,50 @@
+
+platform :ios, '7.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/anodamobi/ANODA-CocoaPods.git'
+
+#ignore all warnings from all pods
+inhibit_all_warnings!
+
+
+target 'ANTableControllerExample' do
+
+#ANODA
+pod 'ANBaseDomainModel'
+pod 'ANHelperFunctions'
+pod 'ANCategories'
+pod 'ANStorage'
+pod 'ANTableController'
+pod 'ANTableViews'
+pod 'ANLogger'
+pod 'ANColorTheme'
+pod 'ANProgressButton'
+pod 'ANKeyboardHandler'
+
+
+#UI Categories
+pod 'FrameAccessor'
+
+
+#UI
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'DBCamera'
+
+pod 'Reveal-iOS-SDK', :configurations => ['Debug']
+
+pod 'Fabric'
+pod 'Crashlytics'
+
+pod 'KVOController'
+
+end
+
+
+target 'ANTableControllerExampleTests' do
+
+pod 'ANHelperFunctions'
+
+end
+
