@@ -2,7 +2,7 @@
 //  ANCategoryListModuleTestSpec.m
 //  ANTableControllerExample
 //
-//  Created by Dmitriy Frolow on 09/08/15.
+//  Created by Oksana Kovalchuk on 1/12/15.
 //  Copyright 2015 ANODA. All rights reserved.
 //
 
