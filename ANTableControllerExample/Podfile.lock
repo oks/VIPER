@@ -38,8 +38,9 @@ PODS:
   - CocoaLumberjack/Extensions (2.0.1):
     - CocoaLumberjack/Default
   - Crashlytics (3.1.0)
-  - DBCamera (2.3.16):
+  - DBCamera (2.4.1):
     - GPUImage (~> 0.1)
+  - Expecta (1.0.2)
   - Fabric (1.2.8):
     - Fabric/Base (= 1.2.8)
   - Fabric/Base (1.2.8)
@@ -62,6 +63,7 @@ PODS:
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
+  - Specta (0.5.0)
 
 DEPENDENCIES:
   - ANBaseDomainModel
@@ -76,12 +78,14 @@ DEPENDENCIES:
   - ANTableViews
   - Crashlytics
   - DBCamera
+  - Expecta (~> 1.0.0)
   - Fabric
   - FrameAccessor
   - KVOController
   - Masonry
   - Reveal-iOS-SDK
   - SDWebImage
+  - Specta (~> 0.5)
 
 SPEC CHECKSUMS:
   ANBaseDomainModel: ed24258ecfad8c4829e13c032c07caee7baaf575
@@ -95,8 +99,9 @@ SPEC CHECKSUMS:
   ANTableController: 2b7b533abb48eea47adf739a5b3627ea9a049efe
   ANTableViews: dbfd364d5f541c71be904a9096cb893cecb4662e
   CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
-  Crashlytics: ef9a58a4e806b316a1748c06432f6f847ba09ac6
-  DBCamera: c88a0deea468d153f54196e56a423301c7092737
+  Crashlytics: 93e2f86363d53c002c6366a9d87e41f2eaee87c3
+  DBCamera: 7a4343a541e1264610f9f33176552b93170a843e
+  Expecta: 54e8a3530add08f4f0208c111355eda7cde74a53
   Fabric: a9eabe53915e9f1db55a84dd2838737928675878
   FrameAccessor: 443a13e58e23a10ff22180da0897b28c3f6abf66
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
@@ -107,5 +112,6 @@ SPEC CHECKSUMS:
   ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
   Reveal-iOS-SDK: c9c55cad2729c85f6ced415f1b21857c9a2d8ef9
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
 
 COCOAPODS: 0.37.2

@@ -45,6 +45,9 @@ end
 target 'ANTableControllerExampleTests' do
 
 pod 'ANHelperFunctions'
-
+pod 'ANStorage'
+pod 'Specta', '~> 0.5'
+pod 'Expecta', '~> 1.0.0'
+pod 'ANTableController'
 end
 
