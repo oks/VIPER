@@ -84,6 +84,8 @@
 		07F21F381B6FBF6A008919FB /* ANNetworkLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F21F331B6FBF6A008919FB /* ANNetworkLoadingView.m */; };
 		07F21F3B1B6FC093008919FB /* ANAppColorTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F21F3A1B6FC093008919FB /* ANAppColorTheme.m */; };
 		6C818DB2D348993D1C2749CD /* libPods-ANTableControllerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20942BA62B9753FB01DC09 /* libPods-ANTableControllerExample.a */; };
+		9E58EC3B1B777862004B3409 /* ANCategoryListModuleTestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E58EC3A1B777862004B3409 /* ANCategoryListModuleTestSpec.m */; };
+		9E58EC3D1B777CEF004B3409 /* ANAddCategoryModuleTestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E58EC3C1B777CEF004B3409 /* ANAddCategoryModuleTestSpec.m */; };
 		D2430A6BFA17A857419C6E3A /* libPods-ANTableControllerExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD771EDE7FA2887124E0DAF /* libPods-ANTableControllerExampleTests.a */; };
 /* End PBXBuildFile section */
 
@@ -268,6 +270,8 @@
 		2FD771EDE7FA2887124E0DAF /* libPods-ANTableControllerExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ANTableControllerExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2F1F19EB6A0D8376D8257A /* Pods-ANTableControllerExample.ad-hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANTableControllerExample.ad-hoc.xcconfig"; path = "Pods/Target Support Files/Pods-ANTableControllerExample/Pods-ANTableControllerExample.ad-hoc.xcconfig"; sourceTree = "<group>"; };
 		7CCA11F9CE35FDA7299479AA /* Pods-ANTableControllerExampleTests.ad-hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANTableControllerExampleTests.ad-hoc.xcconfig"; path = "Pods/Target Support Files/Pods-ANTableControllerExampleTests/Pods-ANTableControllerExampleTests.ad-hoc.xcconfig"; sourceTree = "<group>"; };
+		9E58EC3A1B777862004B3409 /* ANCategoryListModuleTestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANCategoryListModuleTestSpec.m; sourceTree = "<group>"; };
+		9E58EC3C1B777CEF004B3409 /* ANAddCategoryModuleTestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAddCategoryModuleTestSpec.m; sourceTree = "<group>"; };
 		A6FFE2CF9B00ED7AA2F575E3 /* Pods-ANTableControllerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANTableControllerExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ANTableControllerExampleTests/Pods-ANTableControllerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB90AACD827B69D964660C2D /* Pods-ANTableControllerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANTableControllerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ANTableControllerExample/Pods-ANTableControllerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		FA1C8368E698133C7F54A8FA /* Pods-ANTableControllerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANTableControllerExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ANTableControllerExampleTests/Pods-ANTableControllerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -802,6 +806,8 @@
 			children = (
 				076CE30B1B6F9C2A00571DB5 /* ANTableControllerExampleTests.m */,
 				076CE3091B6F9C2A00571DB5 /* Supporting Files */,
+				9E58EC3A1B777862004B3409 /* ANCategoryListModuleTestSpec.m */,
+				9E58EC3C1B777CEF004B3409 /* ANAddCategoryModuleTestSpec.m */,
 			);
 			path = ANTableControllerExampleTests;
 			sourceTree = "<group>";
@@ -1543,7 +1549,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E58EC3B1B777862004B3409 /* ANCategoryListModuleTestSpec.m in Sources */,
 				076CE30C1B6F9C2A00571DB5 /* ANTableControllerExampleTests.m in Sources */,
+				9E58EC3D1B777CEF004B3409 /* ANAddCategoryModuleTestSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,20 @@
                ReferencedContainer = "container:ANTableControllerExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "076CE3041B6F9C2A00571DB5"
+               BuildableName = "ANTableControllerExampleTests.xctest"
+               BlueprintName = "ANTableControllerExampleTests"
+               ReferencedContainer = "container:ANTableControllerExample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,6 +42,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "076CE3041B6F9C2A00571DB5"
+               BuildableName = "ANTableControllerExampleTests.xctest"
+               BlueprintName = "ANTableControllerExampleTests"
+               ReferencedContainer = "container:ANTableControllerExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
